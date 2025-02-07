@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+    font-family: "Lato", serif;
+}
+.header {
+    justify-content: flex-end;
+    display: flex;
+    margin: 20px;
+}
+
+.footer {
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.header, .footer a {
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: 800;
+}
+
+.container {
+    display: flex;
+    width: 900px;
+    /* height: vh; */
+    
+}
+
+.container img, h1{
+    width: 500px;
+    margin-left: 70px;
+    
+}
+
+.imageText {
+    font-size: 50px;
+}
+
+.formSection {
+    margin: 100px;
+    box-sizing: border-box;
+}
+
+.formField {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 8px;
+    margin-bottom:3px ;
+    border-radius: 3px;
+    border-color: #edf2f7;
+}
+label {
+    display: block;
+    font-size: 400;
+    margin-bottom: 5px;
+}
+button {
+    width: 100%;
+    padding: 15px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #0367f2;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 29px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #575C63;;
+}
+.signIn-text{
+    color: #575C63;
+    padding: 8px 0px 20px 0px;
+}
+input, placeholder {
+    font-weight: 400;
+}
+.signIn-heading {
+    font-weight: 900;
+    font-size: xx-large;
+    margin: 0px 0px 15px 0px;
+}
+
+.biography {
+    margin: 10px 10px;
+    padding: 15px;
+}
+
+.biography a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 15px 5px;
+}

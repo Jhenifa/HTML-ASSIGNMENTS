@@ -1,0 +1,67 @@
+.biography {
+    margin: 10px 10px;
+    padding: 15px;
+}
+
+.biography a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    border: 2px solid purple;
+    padding: 10px;
+    border-radius: 15px 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+header {
+    background: purple;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+picture img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+video, audio {
+    display: block;
+    margin: 1rem 0;
+    width: 50%;
+    border-radius: 8px;
+}
+
+h1, p {
+    margin-top: 15px;
+    
+}
+div{
+    border-bottom: 5px solid purple;
+    margin: 30px;
+    padding: 50px;
+}
+
+.picture {
+    border-top: 5px solid purple;
+}
+h3 {
+    font-weight: 900;
+    font-style: italic;
+}
